@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lorem - Company Profile</title>
+
+    <!-- CSS Files -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/contact-us.css" />
+  </head>
+  <body>
+    <!-- Header Navbar -->
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><i class="fab fa-codepen" style="font-size: 30px"></i>Lorem</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portofolio.html">Portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="todos.html">Todos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Banner -->
+    <section id="banner">
+      <div class="banner-text">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1>Welcome to Lorem</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                commodo, nunc id congue tincidunt, dolor orci volutpat123 lorem,
+                non feugiat odio nibh vel ipsum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 text-center">
+            <img
+              class="img-thumbnail"
+              src="https://picsum.photos/300/200?random=1"
+              alt="Gallery Image 1"
+            />
+          </div>
+          <div class="col-md-3 col-sm-6 text-center">
+            <img
+              class="img-thumbnail"
+              src="https://picsum.photos/300/200?random=2"
+              alt="Gallery Image 2"
+            />
+          </div>
+          <div class="col-md-3 col-sm-6 text-center">
+            <img
+              class="img-thumbnail"
+              src="https://picsum.photos/300/200?random=3"
+              alt="Gallery Image 3"
+            />
+          </div>
+          <div class="col-md-3 col-sm-6 text-center">
+            <img
+              class="img-thumbnail"
+              src="https://picsum.photos/300/200?random=4"
+              alt="Gallery Image 4"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h4>Send Us a Message</h4>
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputName"
+                placeholder="Enter your name"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label"
+                >Email</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="inputEmail"
+                placeholder="Enter your email"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label"
+                >Contact Number</label
+              >
+              <input
+                type="number"
+                class="form-control"
+                id="inputNumber"
+                placeholder="Enter your number"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Message</label
+              >
+              <textarea
+                class="form-control"
+                id="inputMessage"
+                rows="3"
+              ></textarea>
+            </div>
+            <button class="btn btn-primary col-12" type="submit" id="btnSend">
+              Send
+            </button>
+          </div>
+          <div class="col-md-5">
+            <h4>Contact us</h4>
+            <div class="mt-4">
+              <div class="d-flex mb-3">
+                <i class="fas fa-map-marker-alt me-2"></i>
+                <div>
+                  <p class="mb-0">Address:</p>
+                  <p class="mb-0">
+                    198 West 21th Street, Suite 721 New York NY 10016
+                  </p>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex mb-3">
+                <i class="fas fa-address-book me-2"></i>
+                <div>
+                  <p class="mb-0">Contact:</p>
+                  <p class="mb-0">+6200 0000 0000 0</p>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex mb-3">
+                <i class="far fa-envelope me-2"></i>
+                <div>
+                  <p class="mb-0">Email:</p>
+                  <p class="mb-0">email@gmail.com</p>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex mb-3">
+                <i class="fas fa-globe me-2"></i>
+                <div>
+                  <p class="mb-0">Website:</p>
+                  <p class="mb-0">www.website.com</p>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex">
+                <i class="fab fa-instagram me-2"></i>
+                <div>
+                  <p class="mb-0">Social Media:</p>
+                  <p class="mb-0">@socialmedia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map -->
+    <iframe
+      width="80%"
+      height="500"
+      frameborder="0"
+      style="border: 0; margin-bottom: 40px"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6049.881319200985!2d-74.00151372674895!3d40.69730452928296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a47df06b185%3A0xc889234bc07c42ee!2sBrooklyn+Heights%2C+Brooklyn%2C+NY+11201!5e0!3m2!1sen!2sus!4v1461598289488"
+    ></iframe>
+  </body>
+
+  <!-- Footer -->
+  <footer class="bg-dark py-4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <h5>About Us</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
+            doloremque molestias nobis cumque tempora dolorum distinctio ipsam
+            neque. Aperiam aliquam at molestiae sit! Dolorem autem sed eligendi
+            pariatur, iusto saepe.
+          </p>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Company</h5>
+          <ul class="list-unstyled">
+            <li>
+              <i class="fas fa-briefcase"></i> <a data-href="#">Careers</a>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <a data-href="contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Services</h5>
+          <ul class="list-unstyled">
+            <li>
+              <i class="fas fa-paint-brush"></i> <a data-href="#">Web Design</a>
+            </li>
+            <li><i class="fas fa-chart-line"></i> <a data-href="#">SEO</a></li>
+            <li>
+              <i class="fab fa-instagram"></i> <a data-href="#">Social Media</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Connect With Us</h5>
+          <ul class="list-unstyled">
+            <li>
+              <i class="fab fa-facebook"></i> <a data-href="#">Facebook</a>
+            </li>
+            <li><i class="fab fa-twitter"></i> <a data-href="#">Twitter</a></li>
+            <li>
+              <i class="fab fa-linkedin"></i> <a data-href="#">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Newsletter</h5>
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control rounded"
+              id="emailSubs"
+              placeholder="Enter your email"
+            />
+          </div>
+          <button
+            class="btn btn-outline-primary mt-2 col-12"
+            type="button"
+            id="btnSubs"
+          >
+            Subscribe
+          </button>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-md-6">
+          <p class="mb-0 text-white-50">
+            Copyright
+            <i class="fas fa-copyright"></i>
+            2023 Kelompok 3
+          </p>
+        </div>
+        <div class="col-md-6 d-flex justify-content-end">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item">
+              <i class="fas fa-user-secret"></i> <a data-href="#">Privacy</a>
+            </li>
+            <li class="list-inline-item">
+              <i class="fas fa-gavel"></i> <a data-href="#">Terms</a>
+            </li>
+            <li class="list-inline-item">
+              <i class="fas fa-question-circle"></i> <a data-href="#">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Files -->
+  <script src="script/contact-us.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</html>
